@@ -1,0 +1,72 @@
+/*General table styling*/
+table{
+    width: 100%;
+    border-collapse: collapse; /*Avoid double borders*/
+    margin-top: 20px;
+    font-family: 'Arial',sans-serif;
+    background-color:#fff;
+}
+
+/*Header cells*/
+th{
+    padding: 20px;
+    text-align: center;
+    background-color: grey; /*grey background for headers*/
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Time slot cells with equal width*/
+.time-slot {
+    width: 20%;
+}
+
+
+.narrow {
+    width: 15%;
+}
+/*Data cells*/
+td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #f4f4f4; /*Light background for headers*/
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ddd;/*uniform border*/
+}
+
+/*Data cells*/
+td{
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd; /*Single border for uniformity*/ 
+}
+/*Spacing and alignment*/
+td,th {
+    vertical-align: middle;/*Center vertically*/
+}
+
+
+
+
+/*Borders*/
+td,th {
+    border: 1px solid #ddd;/*single,lightborder for uniformity*/
+}
+
+/*For rowspan and colspan usage*/
+tr td[rowspan], tr td[colspan] {
+    background-color: #e0e0e0;/*Light gray for merged cells*/
+}
+
+/*stylng for the header*/
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: Arial,sans-serif;
+}
